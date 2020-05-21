@@ -4,6 +4,7 @@
   "description": "Template for a React project using Parcel as bundler",
   "main": "index.js",
   "dependencies": {
+    "aws-amplify": "3.0.11",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
