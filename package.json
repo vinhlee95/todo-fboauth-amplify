@@ -1,0 +1,22 @@
+{
+  "name": "react-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Template for a React project using Parcel as bundler",
+  "main": "index.js",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "7.9.6",
+    "parcel-bundler": "1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel public/index.html --port 3009",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.jsx"
+  },
+  "author": "Vinh Le <lethanhvinh95@gmail.com>",
+  "license": "MIT"
+}
