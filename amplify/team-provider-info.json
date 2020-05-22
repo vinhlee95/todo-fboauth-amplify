@@ -9,6 +9,11 @@
             "UnauthRoleName": "todo-amplify-20200521165817-unauthRole",
             "StackName": "todo-amplify-20200521165817",
             "StackId": "arn:aws:cloudformation:eu-central-1:180951985672:stack/todo-amplify-20200521165817/1f398250-9b6b-11ea-80ae-0ac5bdeb388c"
+        },
+        "categories": {
+            "auth": {
+                "cognito905a33a4": {}
+            }
         }
     }
 }

@@ -1,11 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+import Login from "./Login"
+
 import {initAmplify} from './services/amplify/setup'
+initAmplify()
 
 class App extends React.Component {
   render() {
-    return <div>Hello {this.props.name}</div>;
+    return <Login />
   }
 }
 
