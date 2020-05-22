@@ -1,5 +1,5 @@
 /**
- * Login component
+ * Auth component
  *
  * @author name <name@vertics.co>
  *
@@ -8,7 +8,7 @@
 import React from 'react'
 import {Auth} from 'aws-amplify'
 
-const Login = () => {
+const AuthForm = () => {
 	const [user, setUser] = React.useState({email: '', password: ''})
 	const [error, setError] = React.useState(null)
 
@@ -29,7 +29,7 @@ const Login = () => {
 	}
 
 	return (
-		<form className='login-form' onSubmit={handleSignup}>
+		<form onSubmit={handleSignup}>
 			<h2>Please signup to continue</h2>
 			<input
 				placeholder='Enter email'
@@ -50,4 +50,4 @@ const Login = () => {
 	)
 }
 
-export default Login
+export default AuthForm
