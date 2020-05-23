@@ -7,6 +7,7 @@
  */
 import React from 'react'
 import {Auth} from 'aws-amplify'
+import FacebookAuth from './FacebookAuth'
 
 const AuthForm = () => {
 	const [user, setUser] = React.useState({email: '', password: ''})
@@ -29,24 +30,27 @@ const AuthForm = () => {
 	}
 
 	return (
-		<form onSubmit={handleSignup}>
-			<h2>Please signup to continue</h2>
-			<input
-				placeholder='Enter email'
-				name='email'
-				onChange={handleChange}
-			/>
-			<input
-				placeholder='Enter password'
-				name='password'
-				type='password'
-				onChange={handleChange}
-			/>
-			{error && <span>{error.message}</span>}
-			<button type='submit' onClick={handleSignup}>
-				Sign up
-			</button>
-		</form>
+		<>
+			<form onSubmit={handleSignup}>
+				<h2>Please signup to continue</h2>
+				<input
+					placeholder='Enter email'
+					name='email'
+					onChange={handleChange}
+				/>
+				<input
+					placeholder='Enter password'
+					name='password'
+					type='password'
+					onChange={handleChange}
+				/>
+				{error && <span>{error.message}</span>}
+				<button type='submit' onClick={handleSignup}>
+					Sign up
+				</button>
+			</form>
+			<FacebookAuth />
+		</>
 	)
 }
 

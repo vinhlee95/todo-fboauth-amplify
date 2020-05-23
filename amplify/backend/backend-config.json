@@ -1,8 +1,10 @@
 {
-	"auth": {
-		"cognito905a33a4": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
-		}
-	}
+    "auth": {
+        "todofbamplify5ec40af4": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "customAuth": false
+        }
+    }
 }

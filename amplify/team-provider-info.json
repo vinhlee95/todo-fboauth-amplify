@@ -1,18 +1,21 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "todo-amplify-20200521165817-authRole",
-            "UnauthRoleArn": "arn:aws:iam::180951985672:role/todo-amplify-20200521165817-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::180951985672:role/todo-amplify-20200521165817-authRole",
-            "Region": "eu-central-1",
-            "DeploymentBucketName": "todo-amplify-20200521165817-deployment",
-            "UnauthRoleName": "todo-amplify-20200521165817-unauthRole",
-            "StackName": "todo-amplify-20200521165817",
-            "StackId": "arn:aws:cloudformation:eu-central-1:180951985672:stack/todo-amplify-20200521165817/1f398250-9b6b-11ea-80ae-0ac5bdeb388c"
+            "AuthRoleName": "amplify-todofbamplify-dev-144921-authRole",
+            "UnauthRoleArn": "arn:aws:iam::180951985672:role/amplify-todofbamplify-dev-144921-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::180951985672:role/amplify-todofbamplify-dev-144921-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-todofbamplify-dev-144921-deployment",
+            "UnauthRoleName": "amplify-todofbamplify-dev-144921-unauthRole",
+            "StackName": "amplify-todofbamplify-dev-144921",
+            "StackId": "arn:aws:cloudformation:eu-west-2:180951985672:stack/amplify-todofbamplify-dev-144921/721ad470-9ceb-11ea-a167-02ea235e602c",
+            "AmplifyAppId": "d1kh8l9aev4p52"
         },
         "categories": {
             "auth": {
-                "cognito905a33a4": {}
+                "todofbamplify5ec40af4": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"250631729526779\",\"client_secret\":\"61954a7cd49f953984a009fe4814b1fa\"}]"
+                }
             }
         }
     }
